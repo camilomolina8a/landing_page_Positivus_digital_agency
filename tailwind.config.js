@@ -1,11 +1,12 @@
-/*eslint-env node*/ // Esto es para que EsLint no mande error de que module no está definido
-
 /** @type {import('tailwindcss').Config} */
-
-module.exports = {
-    content: ["./src/**/*.{js,jsx,ts,tsx}"],
+export default {
+    content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                'space': ['SpaceGrotesk','sans-serif']
+            }
+        },
     },
     plugins: [],
 };
