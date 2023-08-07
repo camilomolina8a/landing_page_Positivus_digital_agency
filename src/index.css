@@ -4,10 +4,10 @@
 
 @font-face {
     font-family: "SpaceGrotesk";
-    src: url("../static/font/SpaceGrotesk-Bold.ttf") format('ttf'),
-        url("../static/font/SpaceGrotesk-Light.ttf") format('ttf'),
-        url("../static/font/SpaceGrotesk-Medium.ttf") format('ttf'),
-        url("../static/font/SpaceGrotesk-Regular.ttf") format('ttf');
+    src: url("../static/font/SpaceGrotesk-Bold.ttf") format("ttf"),
+        url("../static/font/SpaceGrotesk-Light.ttf") format("ttf"),
+        url("../static/font/SpaceGrotesk-Medium.ttf") format("ttf"),
+        url("../static/font/SpaceGrotesk-Regular.ttf") format("ttf");
 }
 
 :root {
@@ -17,12 +17,6 @@
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
 }
-
-a {
-    font-weight: 500;
-    text-decoration: none;
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -32,25 +26,23 @@ body {
     min-height: 100vh;
 }
 
+li,
 a {
-    border-radius: 8px;
-    padding: 0.6em 1.2em;
-    font-size: 1em;
-    font-weight: 500;
-    font-family: inherit;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-li {
     text-decoration: none;
     list-style: none;
+    transition: all 0.3s;
+    cursor: pointer;
 }
-/* button:hover {
-  border-color: #646cff;
-} */
 
 /*Custom Clases*/
 .text-shadow {
-    text-shadow: 2px 2px 5px rgb(0 0 0 /.25); 
+    text-shadow: 2px 2px 5px rgb(0 0 0 /0.25);
+}
+.prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+.menu-transition {
+    transition: transform 0.4s ease-out 0s;
 }

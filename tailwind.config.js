@@ -4,9 +4,14 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                'space': ['SpaceGrotesk','sans-serif']
-            }
+                space: ["SpaceGrotesk", "sans-serif"],
+            },
+        },
+        colors: {
+            green: "#B9FF66",
+            white: "#FFFF"
         },
     },
+
     plugins: [],
 };
