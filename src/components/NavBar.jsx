@@ -4,22 +4,21 @@ import menu from "../assets/burger_menu.png";
 import close from "../assets/close.png";
 
 export default function NavBar() {
-    const [toggle, setToggle] = useState(true);
 
-    console.log(toggle);
+    const [toggle, setToggle] = useState(true);
 
     return (
         <>
             <nav className="flex justify-between w-[100vw] lg:max-w-[1200px] py-8 ">
                 <div className="hidden md:flex w-[100vw] px-5 md:px-0 md:w-auto justify-between  md:justify-center items-center">
-                    <a className="md:flex hidden" href="#">
+                    <a className="lg:flex hidden" href="#">
                         <img src={Logo} alt="Logo de la empresa" />
                         <p className=" ml-2 leading-10 font-bold font-space text-[35px] text-shadow prevent-select">
                             Positivus
                         </p>
                     </a>
                 </div>
-                <div className="hidden md:flex">
+                <div className="hidden lg:flex">
                     <ul className="flex hover:[&>li]:bg-green [&>li]:flex [&>li]:ml-[10px] [&>li]:rounded-xl [&>li>a]:px-[20px] [&>li>a]:py-[12px]  items-center font-space text-[20px] ">
                         <li>
                             <a href="#">About us</a>
@@ -47,7 +46,7 @@ export default function NavBar() {
 
                 {/*-------------- MOBILE ---------------- */}
 
-                <div className="flex md:hidden w-[100vw] mx-5">
+                <div className="flex lg:hidden w-[100vw] mx-5">
                     <div className="flex justify-between items-center w-full ">
                         <div className="flex items-center">
                             <img

@@ -9,7 +9,8 @@ export default {
         },
         colors: {
             green: "#B9FF66",
-            white: "#FFFF"
+            white: "#FFFF",
+            black: "#191A23"
         },
     },
 
