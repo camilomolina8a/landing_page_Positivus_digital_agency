@@ -7,13 +7,37 @@ import company5 from "../assets/companiesImg/Company-logo-5.png";
 
 function Companies() {
     return (
-        <div className="grid grid-cols-3 md:grid-cols-6 gap-4 mx-auto md:[&>img]:w-[130px] [&>img]:w-[100px]  md:[&>img]:h-[50px] [&>img]:h-[40px] px-5 lg:px-0 lg:my-[80px] my-[70px] ">
-            <img src={company} alt="company logo" />
-            <img src={company1} alt="company logo" />
-            <img src={company2} alt="company logo" />
-            <img src={company3} alt="company logo" />
-            <img src={company4} alt="company logo" />
-            <img src={company5} alt="company logo" />
+        <div className="flex justify-between flex-wrap gap-5 md:gap-0 lg:[&>img]:w-[130px] [&>img]:w-[100px]  md:[&>img]:h-[50px] [&>img]:h-[40px] px-5 lg:px-0 lg:my-[80px] my-[70px] ">
+            <img
+                className="filter grayscale hover:filter-none transition-all duration-300"
+                src={company}
+                alt="company logo"
+            />
+            <img
+                className="filter grayscale hover:filter-none transition-all duration-300"
+                src={company1}
+                alt="company logo"
+            />
+            <img
+                className="filter grayscale hover:filter-none transition-all duration-300"
+                src={company2}
+                alt="company logo"
+            />
+            <img
+                className="filter grayscale hover:filter-none transition-all duration-300"
+                src={company3}
+                alt="company logo"
+            />
+            <img
+                className="filter grayscale hover:filter-none transition-all duration-300"
+                src={company4}
+                alt="company logo"
+            />
+            <img
+                className="filter grayscale hover:filter-none transition-all duration-300"
+                src={company5}
+                alt="company logo"
+            />
         </div>
     );
 }
