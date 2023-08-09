@@ -1,6 +1,6 @@
 
 import './App.css'
-import { NavBar, Hero } from './components'
+import { NavBar, Hero, Companies } from './components'
 
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
     <>
       <NavBar/>
       <Hero/>
+      <Companies/>
     </>
   )
 }
