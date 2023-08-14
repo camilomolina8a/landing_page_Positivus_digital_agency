@@ -9,8 +9,9 @@ export default {
         },
         colors: {
             green: "#B9FF66",
-            white: "#FFFF",
-            black: "#191A23"
+            white: "#FFFFFF",
+            black: "#191A23",
+            softgray:"#F3F3F3",
         },
     },
 
