@@ -7,7 +7,7 @@ import company5 from "../assets/companiesImg/Company-logo-5.png";
 
 function Companies() {
     return (
-        <div className="flex justify-between flex-wrap gap-5 md:gap-0 lg:[&>img]:w-[130px] [&>img]:w-[100px]  md:[&>img]:h-[50px] [&>img]:h-[40px] px-5 lg:px-0 lg:my-[60px] my-[70px] ">
+        <div className="flex justify-between flex-wrap gap-5 md:gap-0 lg:[&>img]:w-[130px] [&>img]:w-[100px]  md:[&>img]:h-[50px] [&>img]:h-[40px] px-5 lg:px-0 lg:my-[60px] my-[70px] lg:max-w-[1200px] ">
             <img
                 className="filter grayscale hover:filter-none transition-all duration-300"
                 src={company}
