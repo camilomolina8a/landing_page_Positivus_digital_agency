@@ -6,7 +6,7 @@ function Services() {
     return (
         <section className="mt-[120px] mb-[120px] lg:max-w-[1200px]">
             <div className="flex flex-col lg:flex-row items-center font-space mb-[80px]">
-                <h2 className="md:text-[38px] bg-green px-4 rounded-md lg:mr-10">
+                <h2 className="text-[28px] font-[600] md:font-normal md:text-[38px] bg-green px-4 rounded-md lg:mr-10">
                     Services
                 </h2>
                 <p className="md:text-[18px] md:max-w-[550px] text-center lg:text-left px-5 lg:px-0 mt-4 lg:mt-0">

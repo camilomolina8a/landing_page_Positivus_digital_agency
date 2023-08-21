@@ -1,6 +1,6 @@
 
 import './App.css'
-import { NavBar, Hero, Companies, Services, CTABanner, CaseStudies } from './components'
+import { NavBar, Hero, Companies, Services, CTABanner, CaseStudies, WorkingProcess } from './components'
 
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
       <Services/>
       <CTABanner/>
       <CaseStudies/>
+      <WorkingProcess/>
     </>
   )
 }

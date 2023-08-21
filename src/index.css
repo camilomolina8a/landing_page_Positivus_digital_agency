@@ -58,3 +58,15 @@ a {
 .menu-transition {
     transition: transform 0.4s ease-out 0s;
 }
+
+.carousel.flickity-enabled.is-draggable {
+    border: none !important;
+    outline: none !important;
+}
+
+.active {
+    background-color: #B9FF66;
+}
+.close {
+    background-color: #F3F3F3;
+}
