@@ -1,4 +1,17 @@
+import Flickity from "react-flickity-component";
+import "flickity/css/flickity.css";
+
+import TestimonialCard from "./TestimonialCard";
+
 function Testimonials() {
+    const flickityOptions = {
+        // Configura las opciones de Flickity aquí
+        draggable: true,
+        freeScroll: true,
+        wrapAround: true,
+        initialIndex: 1,
+    };
+
     return (
         <section className="mt-[120px] mb-[120px] max-w-[1200px] border px-5 lg:px-0">
             <div className="flex flex-col lg:flex-row items-center font-space mb-5 md:mb-[80px]">
@@ -9,6 +22,16 @@ function Testimonials() {
                     Hear from Our Satisfied Clients: Read Our Testimonials to
                     Learn More about Our Digital Marketing Services
                 </p>
+            </div>
+
+            <div className="border py-[60px] bg-black text-white">
+                <Flickity options={flickityOptions} className="carousel">
+
+                    <TestimonialCard />
+                    <TestimonialCard />
+                    <TestimonialCard />
+
+                </Flickity>
             </div>
         </section>
     );

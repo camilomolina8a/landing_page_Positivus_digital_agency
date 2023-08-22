@@ -26,7 +26,7 @@ function Team() {
                 ))}
             </div>
 
-            <div className="mt-[40px] border flex justify-end">
+            <div className="mt-[40px] flex justify-end">
                 <a
                     href="#"
                     className="flex justify-center font-space tracking-[1px] py-[18px] w-full md:w-[240px] bg-black text-white text-[18px] rounded-[16px]"

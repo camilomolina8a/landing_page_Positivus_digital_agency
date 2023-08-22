@@ -16,9 +16,9 @@ function TeamCard({ image, name, job, bio }) {
                 <div className="w-[60%] relative flex flex-col justify-end">
                     <p className="text-[18px] font-bold">{name}</p>
                     <p className="text-[16px]">{job}</p>
-                    <div className="h-[32px] w-[32px] absolute top-0 right-0">
+                    <a href="#" className="h-[32px] w-[32px] absolute top-0 right-0">
                         <img src={linkedIn} alt="LinkedIn Logo" />
-                    </div>
+                    </a>
                 </div>
             </div>
 
