@@ -15,11 +15,11 @@ const flickityOptions = {
 function CaseStudies() {
     return (
         <section className=" mt-[120px] mb-[120px] max-w-[1200px] ">
-            <div className="flex flex-col lg:flex-row items-center font-space mb-[30px] md:mb-[80px]">
-                <h2 className="text-[28px] font-[600] md:font-normal md:text-[38px] bg-green px-4 mb-[30px] rounded-md lg:mr-10">
+            <div className="flex flex-col lg:flex-row items-center font-space mb-[80px]">
+                <h2 className="text-[28px] font-[600] md:font-normal md:text-[38px] bg-green px-4 rounded-md lg:mr-10">
                     Case Studies
                 </h2>
-                <p className="md:text-[18px] md:max-w-[550px] text-center lg:text-left px-5 lg:px-0 ">
+                <p className="md:text-[18px] md:max-w-[550px] text-center lg:text-left px-5 lg:px-0 mt-4 lg:mt-0">
                     Explore Real-Life Examples of Our Proven Digital Marketing
                     Success through Our Case Studies
                 </p>
@@ -76,7 +76,6 @@ function CaseStudies() {
 
             {/* ---------------------------END DESKTOP VERSION--------------------------- */}
 
-
             {/* ----------------------- MOBILE VERSION ----------------------- */}
 
             {/* Recuerda que los Slides (div), deben ir dentro de un array de un objeto { [div1, div2,...etc ] } */}
@@ -89,7 +88,10 @@ function CaseStudies() {
                     reloadOnUpdate
                 >
                     {[
-                        <div className=" w-[90%] h-[260px] px-[10px] py-2" key={0}>
+                        <div
+                            className=" w-[90%] h-[260px] px-[10px] py-2"
+                            key={0}
+                        >
                             <div className="h-full bg-black px-[45px] py-[40px] rounded-[45px]">
                                 <p className="text-white">
                                     For a local restaurant, we implemented a
@@ -112,7 +114,10 @@ function CaseStudies() {
                             </div>
                         </div>,
 
-                        <div className=" w-[90%] h-[260px] px-[10px] py-2" key={1}>
+                        <div
+                            className=" w-[90%] h-[260px] px-[10px] py-2"
+                            key={1}
+                        >
                             <div className="h-full bg-black px-[45px] py-[40px] rounded-[45px]">
                                 <p className="text-white">
                                     For a B2B software company, we developed an
@@ -135,7 +140,10 @@ function CaseStudies() {
                             </div>
                         </div>,
 
-                        <div className=" w-[90%] h-[260px] px-[10px] py-2 left-5" key={2}>
+                        <div
+                            className=" w-[90%] h-[260px] px-[10px] py-2 left-5"
+                            key={2}
+                        >
                             <div className="h-full bg-black pl-[40px] pr-[40px] py-[40px] rounded-[45px]">
                                 <p className="text-white">
                                     For a national retail chain, we created a

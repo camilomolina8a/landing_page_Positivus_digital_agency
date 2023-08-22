@@ -5,5 +5,7 @@ import Services from "./Services"
 import CTABanner from './CTABanner'
 import CaseStudies from './CaseStudies'
 import WorkingProcess from "./WorkingProcess";
+import Team from './Team';
+import Testimonials from './Testimonials';
 
-export { NavBar, Hero, Companies, Services, CTABanner, CaseStudies, WorkingProcess };
+export { NavBar, Hero, Companies, Services, CTABanner, CaseStudies, WorkingProcess, Team, Testimonials };
