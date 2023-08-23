@@ -1,4 +1,3 @@
-import "./App.css";
 import {
     NavBar,
     Hero,
@@ -9,6 +8,7 @@ import {
     WorkingProcess,
     Team,
     Testimonials,
+    Contact,
 } from "./components";
 
 function App() {
@@ -23,6 +23,7 @@ function App() {
             <WorkingProcess />
             <Team />
             <Testimonials/>
+            <Contact/>
         </>
     );
 }
