@@ -138,3 +138,24 @@ export const team = [
         bio: "2+ years of experience in writing and editing Skilled in creating compelling, SEO-optimized content for various industries",
     },
 ];
+
+export const testimonials = [
+    {
+        id: 0,
+        name: "Jhon Smith",
+        job: "Marketing Director at Company",
+        text: '"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."',
+    },
+    {
+        id: 1,
+        name: "Jessica Allen",
+        job: "Project Manager at Company",
+        text: '"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."',
+    },
+    {
+        id: 2,
+        name: "Camilo Molina",
+        job: "Entrepreneur and CEO at Company",
+        text: '"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."',
+    },
+];
