@@ -3,7 +3,7 @@ import img_hero from "../assets/trumpet.png";
 function Hero() {
     return (
         <div className="flex flex-col lg:flex-row lg:justify-between lg:mt-[25px] lg:max-w-[1200px] lg:h-[480px] px-5 lg:px-0 ">
-            <div className="flex-col justify-between flex lg:max-w-[45%] lg:h-[440px]">
+            <div className="flex-col justify-between flex lg:max-w-[45%] lg:h-[440px] ">
                 <h1 className="text-[48px] md:text-[64px] leading-[1.2] text-shadow font-space font-normal lg:font-bold">
                     Navigating the digital landscape for success
                 </h1>

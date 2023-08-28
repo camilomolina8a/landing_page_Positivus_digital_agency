@@ -8,6 +8,7 @@ import WorkingProcess from "./WorkingProcess";
 import Team from "./Team";
 import Testimonials from "./Testimonials";
 import Contact from "./Contact";
+import Footer from "./Footer"
 
 export {
     NavBar,
@@ -20,4 +21,5 @@ export {
     Team,
     Testimonials,
     Contact,
+    Footer
 };

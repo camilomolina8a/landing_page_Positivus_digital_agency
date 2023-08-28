@@ -4,12 +4,11 @@ import menu from "../assets/burger_menu.png";
 import close from "../assets/close.png";
 
 export default function NavBar() {
-
     const [toggle, setToggle] = useState(true);
 
     return (
         <>
-            <nav className="flex justify-between w-[100vw] lg:max-w-[1200px] py-8 ">
+            <nav className="flex justify-between w-[100vw] lg:max-w-[1200px] py-4">
                 <div className="hidden md:flex w-[100vw] px-5 md:px-0 md:w-auto justify-between  md:justify-center items-center">
                     <a className="lg:flex hidden" href="#">
                         <img src={Logo} alt="Logo de la empresa" />
@@ -76,7 +75,7 @@ export default function NavBar() {
                     </div>
 
                     <div
-                        className={`fixed left-0 right-0 w-[100vw] h-full mt-[80px] bg-green z-[99] ${
+                        className={`fixed left-0 right-0 w-[100vw] h-full mt-[60px] bg-green z-[99] ${
                             toggle
                                 ? "-translate-x-full menu-transition "
                                 : "  translate-x-0 menu-transition"

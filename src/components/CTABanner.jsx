@@ -2,7 +2,7 @@ import ctaImg from "../assets/Illustration.png";
 
 function CTABanner() {
     return (
-        <div className="flex flex-col md:flex-row bg-softgray lg:h-[340px] mx-5 md:mx-0 lg:max-w-[1200px] rounded-[45px] ">
+        <div className="flex flex-col md:flex-row bg-softgray lg:h-[340px] mx-5 md:mx-0 w-full lg:max-w-[1200px] rounded-[45px] ">
 
             <div className="font-space flex flex-col justify-center md:w-[50%] px-[50px] lg:py-0 py-10 ">
 

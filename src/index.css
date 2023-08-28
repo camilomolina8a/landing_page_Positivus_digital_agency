@@ -10,10 +10,6 @@
         url("../static/font/SpaceGrotesk-Regular.ttf") format("ttf");
 }
 
-/* * {
-    border: 1px solid red;
-} */
-
 :root {
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -25,9 +21,10 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
     min-width: 320px;
     min-height: 100vh;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 li,

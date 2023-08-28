@@ -14,7 +14,7 @@ const flickityOptions = {
 
 function CaseStudies() {
     return (
-        <section className=" mt-[120px] mb-[120px] max-w-[1200px] ">
+        <section className=" mt-[120px] mb-[50px] max-w-[1200px] ">
             <div className="flex flex-col lg:flex-row items-center font-space mb-[80px]">
                 <h2 className="text-[28px] font-[600] md:font-normal md:text-[38px] bg-green px-4 rounded-md lg:mr-10">
                     Case Studies
