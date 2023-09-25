@@ -1,7 +1,8 @@
 import { useState } from "react";
-import Logo from "../assets/Logo_Icon.png";
+
 import menu from "../assets/burger_menu.png";
 import close from "../assets/close.png";
+import Logo from "../assets/logo_Icon.png";
 
 export default function NavBar() {
     const [toggle, setToggle] = useState(true);
