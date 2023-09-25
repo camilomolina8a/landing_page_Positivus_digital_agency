@@ -24,7 +24,7 @@ export const services = [
         serviceImg: "../src/assets/servicesImg/service1.png",
         bgTitle: "softgray",
         bgColor: "black",
-        textColor: "softgray",
+        textColor: "white",
     },
     {
         id: 3,
@@ -51,7 +51,7 @@ export const services = [
         serviceImg: "../src/assets/servicesImg/service6.png",
         bgTitle: "green",
         bgColor: "black",
-        textColor: "softgray",
+        textColor: "white",
     },
 ];
 

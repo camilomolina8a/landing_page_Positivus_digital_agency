@@ -30,7 +30,7 @@ function Contact() {
                     Contact Us
                 </h2>
                 <p className="md:text-[18px] md:max-w-[550px] text-center lg:text-left px-5 lg:px-0 mt-4 lg:mt-0">
-                    Connect with Us: Let`&apos;` Discuss Your <br /> Digital
+                    Connect with Us: Let&apos;s Discuss Your <br /> Digital
                     Marketing Needs
                 </p>
             </div>
