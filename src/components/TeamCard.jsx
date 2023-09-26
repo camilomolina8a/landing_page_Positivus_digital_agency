@@ -7,7 +7,7 @@ function TeamCard({  name, job, bio }) {
             <div className="flex h-[110px] mb-5">
                 <div className="w-[40%] h-full mr-4">
                     <img
-                        src={"assets/team/SarahKim.png"}
+                        src={"../../assets/team/SarahKim.png"}
                         alt="Image of the person"
                         className="h-full"
                     />
