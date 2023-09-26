@@ -1,13 +1,13 @@
 import PropTypes from "prop-types";
 import linkedIn from '../assets/linkedIn.jpg'
 
-function TeamCard({ image, name, job, bio }) {
+function TeamCard({  name, job, bio }) {
     return (
         <div className="border pt-[40px] pb-[30px] px-[30px] rounded-[30px] box-shadow font-space">
             <div className="flex h-[110px] mb-5">
                 <div className="w-[40%] h-full mr-4">
                     <img
-                        src={image}
+                        src={"./assets/team/SarahKim.png"}
                         alt="Image of the person"
                         className="h-full"
                     />
