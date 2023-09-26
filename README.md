@@ -1,9 +1,11 @@
 
 #  Landing Page for Digital Agency
 
-
+![Positivus Lading PAge](https://raw.githubusercontent.com/camilomolina8a/landing_page_Positivus_digital_agency/main/src/assets/Cover_positivus.png)
 
 This project presents a modern landing page designed especially for digital agencies that want to highlight their services and attract new clients. This landing page is professionally designed and ready to be used as a starting point for the creation of your own digital agency website.
+
+> [**You can check the demo  here**](https://positivus-landing-page.netlify.app/)
 
 ##  Outstanding Features
 
@@ -27,7 +29,5 @@ This project presents a modern landing page designed especially for digital agen
 
 4. Publish the page to your web server or use it as a starting point for your own project.
   
----
 
-> [**You can check the demo  here**](https://positivus-landing-page.netlify.app/)
 
